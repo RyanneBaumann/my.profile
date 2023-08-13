@@ -1,37 +1,10 @@
-h1 {
-    color: blueviolet;
-    
-}
-
-body {
-    background-color: blanchedalmond;
-    margin: 0;
-    height: 100vh;
-}
-
-.text {
-    color: rgb(255, 0, 0);
-}
-
-.hello {
-    margin-bottom: 200px;
-}
-
-
-.header {
-    background-color: aqua;
-    height: 8%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .main {
     display: flex;
     justify-content: center;
 }
 
-.main > p {
-    margin: 0 3px;
+
+.main > h1 {
+    margin: 0 100px;
 }
+
