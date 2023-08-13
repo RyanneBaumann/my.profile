@@ -1,10 +1,22 @@
-.main {
+.header {
+    background-color: rgb(211, 202, 216);
+    height: 20%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-
-.main > h1 {
+.header > h1 {
     margin: 0 100px;
+    color: black;
 }
 
+.header > h1:hover {
+    color: antiquewhite;
+}
+
+body {
+    background-color: rgb(229, 224, 232);
+    margin: 0;
+    height: 100vh;
+}
