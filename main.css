@@ -4,13 +4,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Playfair;
+
 }
 
 .header > h1 {
     margin: 0 100px;
     color: rgb(149, 135, 156);
     font-size: 270%;
+
 }
+
+
 
 .header > h1:hover {
     color: rgb(97, 89, 101);
@@ -28,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Forum;
 }
 
 .gallery > p {
