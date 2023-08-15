@@ -1,3 +1,15 @@
+
+body {
+    background-color: rgb(229, 224, 232);
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+
+
+
 .header {
     background-color: rgb(211, 202, 216);
     height: 20%;
@@ -5,8 +17,9 @@
     justify-content: center;
     align-items: center;
     font-family: Playfair;
-
 }
+
+
 
 .header > a {
     margin: 0 100px;
@@ -16,30 +29,36 @@
     text-decoration: none;
 }
 
-
-
 .header > a:hover {
     color: rgb(97, 89, 101);
 }
 
-body {
-    background-color: rgb(229, 224, 232);
-    margin: 0;
-    height: 100vh;
-}
 
 
-.gallery {
+
+.welcome {
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Playfair;
+    font-family: Satisfy;
 }
 
-.gallery > p {
+.welcome > p {
     margin: 0 100px;
-    font-size: 150%;
+    font-size: 300%;
     color: rgb(73, 73, 73);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+   
