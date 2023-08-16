@@ -1,0 +1,9 @@
+.ornament {
+    position: absolute;
+    left: 660px;
+    bottom: 495px;
+}
+
+<div class="ornament">
+        <img src="Picture/ornament-2413819_1280.png" alt="ornament" height="200">
+    </div>

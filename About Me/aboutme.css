@@ -23,7 +23,11 @@
 }
 
 
-
+.portrait {
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+}
 
 
 body {
