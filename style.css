@@ -1,0 +1,764 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f7e2df;
+}
+
+
+header {
+    height: 250px;
+    background-color: #e2aaa3;
+    z-index: 10;
+
+}
+
+.headerGlow {
+    border-color: #e2aaa3;
+    box-shadow: 0px 0 20px 5px #e2aaa3;
+    z-index: 9;
+
+   
+}
+
+.headerMargin {
+    margin-bottom: 60px;
+}
+
+main {
+    height: auto;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Dosis;
+    color: #010101;
+
+}
+
+
+.hauptnavGalleryHeader {
+    height: 150px;
+}
+
+
+
+
+/********** Hauptnav **********/
+
+.hauptnav {
+    margin-top: 0px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+
+.hauptnav a {
+    margin: 0 100px;
+    color: #ae6c6b;
+    font-size: 280%;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+
+
+.hauptnavGallery {
+    margin-top: 0px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+.hauptnavGallery a {
+    margin: 0 100px;
+    color: #ae6c6b;
+    font-size: 280%;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #8a4645;
+}
+
+
+.aktiv > a{
+    color:#8a4645;
+}
+
+
+    
+
+
+/********** Home **********/
+
+.welcome {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'DM Serif Display', serif;
+
+
+
+}
+
+.welcome > p {
+    margin: 0 100px;
+    font-size: 150px;
+    color:#ae6c6b;
+    /* rgb(73, 73, 73) */
+
+    padding-top: 150px;
+    
+
+}
+
+
+.welcome h1, h2 {
+    font-family: 'Dosis';
+    
+}
+
+.welcome h1 {
+    color: #ae6c6b;
+    margin-bottom: 0;
+    font-weight: 300;
+    
+}
+
+.welcome h2 {
+    color: #c88b87;
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.welcome a:hover {
+    color: #ae6c6b;
+}
+
+
+.homeBackground {
+    height: 100px;
+    background-image: linear-gradient(to right, #f7e2df 50%, #f3d0cb 50%);
+    background-size: 40px 100%;
+
+    margin: 40px;
+
+    border:#e2aaa3;
+    border-style: solid;
+    border-width: 15px;
+    width: auto;
+   height: auto;
+
+
+
+}
+
+
+.homeNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    width: 500px;
+
+    
+}
+
+.homeNav > li {
+    
+    list-style-type: none;
+
+    font-family: 'Dosis';
+    font-size: 50px;
+    font-weight: 400;
+
+    padding-bottom: 200px;
+
+}
+
+.homeNav li a {
+    text-decoration: none;
+    color:#e2aaa3;
+
+}
+
+
+/********** Gallery **********/
+
+.gallery {
+    font-family: 'Dosis';
+    font-size: 32px;
+    font-weight: 400;
+    color: #010101;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 80px;
+
+}
+
+.gallery a {
+    background-color:#e2aaa3;
+    background-image: linear-gradient(to right, #f7e2df 50%, #f3d0cb 50%);
+    background-size: 40px 100%;
+    width: 430px;
+    height: 50px;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: #010101;
+
+    border-width: 5px;
+    border-style: double;
+    border-color: #e2aaa3;
+}
+
+.gallery a:hover {
+    background-color: #f1ceca;
+
+    color:#ae6c6b;
+}
+
+.einleitungGallery {
+    font-family: 'Dosis';
+    font-size: 26px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: #010101;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.einleitungGallery p {
+    margin: 4px;
+}
+
+.galleryMain {
+    margin: 10px;
+}
+
+
+
+
+
+/********** Gallery Header **********/
+
+.headerZwei {
+    background-color: #f3d0cb;
+
+    margin-top: 0px;
+    height: 50px;
+    width: 1100px;
+
+   margin: auto;
+
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center; 
+
+
+}
+
+.headerZwei a {
+    font-family: 'Dosis';
+    font-size: 20px;
+    text-decoration: none;
+    color: #ae6c6b;
+}
+
+.headerZwei a:hover {
+    color: #8a4645;
+}
+
+.aktivGallery {
+    color: #8a4645;
+}
+
+
+
+
+
+
+/****************************** Gallery Inhalt ******************************/
+
+
+/*Fotografie*/
+
+.gridContainerFotos {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 70px;
+
+}
+
+.gridItemFotos {
+    background-color:#f3d0cb;
+    border-radius: 10px;
+    border-color: #010101;
+    border-width: 10px;
+    width: 450px;
+    height: auto;
+
+    
+    padding-top: 40px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridItemFotos > h5 {
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemFotos > p {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    text-align: justify;
+    width: 400px;
+}
+
+.gridItemFotos p a {
+    color:#8a4645;
+}
+
+.vorschauHeader {
+    background-color: #e2aaa3;
+    height: 75px;
+
+}
+
+
+.abtrennungFotos {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.abtrennungFotos img {
+    width: 200px;
+}
+
+
+.gridContainerZwei {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.gridItemZwei {
+    width: 450px;
+
+    
+
+}
+
+
+
+
+
+
+/*Animation*/
+
+.gridContainerAnimation {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.gridItemAnimation {
+    background-color:#f3d0cb;
+    border-radius: 10px;
+    border-color: #010101;
+    border-width: 10px;
+    width: 450px;
+    height: auto;
+
+    
+    padding-top: 40px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridItemAnimation > h5 {
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemAnimation > p {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    text-align: justify;
+    width: 400px;
+}
+
+.gridItemAnimation p a {
+    color:#8a4645;
+}
+
+.gridItemAnimation video {
+    margin-bottom: 10px;
+}
+
+
+
+/*Broschüre/Portfolio/Poster*/
+
+.gridContainerPortfolio {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.gridItemPortfolio {
+    background-color:#f3d0cb;
+    border-radius: 10px;
+    border-color: #010101;
+    border-width: 10px;
+    width: 450px;
+    height: auto;
+
+    
+    padding-top: 40px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridItemPortfolio > h5 {
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemPortfolio > p {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    text-align: justify;
+    width: 400px;
+}
+
+.gridItemPortfolio p a {
+    color:#8a4645;
+}
+
+
+
+
+
+
+
+
+
+
+/********** About Me **********/
+
+
+.einleitung blockquote {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 38px;
+
+    padding-top: 30px;
+
+
+}
+
+.einleitung blockquote p {
+    margin-bottom: 0;
+}
+
+
+cite {
+    display: flex;
+    justify-content: right;
+
+    font-size: 20px;
+    font-weight: 200;
+
+    margin: 0;
+}
+
+
+.einleitung > p {
+    font-size: 24px;
+    font-family: 'Dosis';
+    font-weight: 300;
+
+}
+
+
+.zitatStellungnahme {
+    width: 700px;
+    text-align: justify;
+
+}
+
+
+.einleitung img {
+    width: 150px;
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+.aboutme {
+    width: 700px;
+    text-align:justify;
+
+    font-size: 24px;
+    font-family: 'Dosis';
+    font-weight: 200;
+
+}
+
+
+.aboutme > a {
+    text-decoration: none;
+    color: #8a4645;
+    font-weight: 300;
+
+}
+
+
+.projekte {
+    background-image: linear-gradient(to right, #f7e2df 50%, #f3d0cb 50%);
+    background-size: 20px 100%;
+    z-index: -1;
+
+    
+    
+    width: 610px;
+    padding-top: 60px;
+
+}
+
+.fade {
+    height: 30px;
+    width: 610px;
+    margin-top: 30px;
+
+    z-index: 9;
+
+    background-image: linear-gradient(rgba(255,0,0,0), #f7e2df);
+}
+
+.projekte img {
+    height: 600px;
+
+    border:#e2aaa3;
+    border-style:dashed;
+    border-width: 10px;
+
+    margin-bottom: 40px;
+
+}
+
+.projekte > h3 {
+    background-color: #f3d0cb;
+    padding: 10px;
+
+
+    font-size: 28px;
+    font-family: 'Dosis';
+    font-weight: 600;
+
+
+    
+}
+
+.projekte > h5 {
+    font-size: 24px;
+    font-family: 'Dosis';
+    font-weight: 400;
+
+    margin: 0;
+    margin-top: 5px;
+}
+
+.projekte > h6 {
+    font-size: 20px;
+    font-family: 'Dosis';
+    font-weight: 200;
+
+    margin: 0;
+}
+
+.projekte > p {
+    font-size: 16px;
+    font-family: 'Dosis';
+    font-weight: 200;
+
+    margin: 0;
+    margin-bottom: 10px;
+ 
+}
+
+
+
+
+
+
+
+
+.line {
+    background-color: #010101;
+    width: 1px;
+    height: 50px;
+    margin-left: 305px;
+  
+}
+
+
+
+
+.gridAboutme {
+    font-size: 24px;
+    font-family: 'Dosis';
+    font-weight: 200;
+
+    display: grid;
+    column-gap: 120px;
+
+    grid-template-columns: auto 700px;
+    text-align: center;
+    justify-content: center;
+
+
+
+    
+}
+
+.gridItemAboutme {
+    display: flex;
+    justify-content: center;
+    
+    display: grid;
+    grid-template-rows: auto auto;    
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+   

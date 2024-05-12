@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f3d0cb;
+}
+
+
+header {
+    height: 250px;
+    background-color: #e2aaa3;
+
+}
+
+
+
+main {
+    height: auto;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Dosis;
+    color: #010101;
+
+}
+
+
+
+
+.vorschauHeader {
+    height: 160px;
+    background-color: #f3d0cb;
+
+    display: flex;
+    align-items: center;
+
+   
+}
+
+.vorschauHeader img {
+   margin-left: 40px;
+   margin-top: 10px;
+}
+
+
+
+
+/********** Grid **********/
+
+.gridContainer {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    justify-content: center;
+
+
+
+
+}
+
+.gridItem {
+    width: 380px;
+    padding-top: 10px; 
+}
+
+
+
