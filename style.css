@@ -49,6 +49,8 @@ footer {
 
 
 
+
+
 /********** Hauptnav **********/
 
 .hauptnav {
@@ -327,9 +329,9 @@ nav a:hover {
 .gridContainerFotos {
     display: grid;
     column-gap: 50px;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
 
     margin-top: 70px;
 
@@ -358,6 +360,15 @@ nav a:hover {
     font-family: Dosis;
     font-weight: 500;
     font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemFotos > h6 {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
 
     margin-bottom: 10px;
     margin-top: 0;
@@ -418,6 +429,88 @@ nav a:hover {
 
 
 
+/*Illustrationen*/
+
+.gridContainerIllustration {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 70px;
+
+}
+
+.gridItemIllustration {
+    background-color:#f3d0cb;
+    border-radius: 10px;
+    border-color: #010101;
+    border-width: 10px;
+    width: 450px;
+    height: auto;
+
+    
+    padding-top: 40px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridItemIllustration > h5 {
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemIllustration > h6 {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemIllustration > p {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    text-align: justify;
+    width: 400px;
+}
+
+.gridItemIllustration p a {
+    color:#8a4645;
+}
+
+.gridItemIllustration img {
+    padding-top: 5px;
+}
+
+
+.vorschauHeader {
+    background-color: #e2aaa3;
+    height: 75px;
+
+}
+
+
+
+
+
+
 
 /*Animation*/
 
@@ -461,6 +554,15 @@ nav a:hover {
     margin-top: 0;
 }
 
+.gridItemAnimation > h6 {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
 .gridItemAnimation > p {
     font-family: Dosis;
     font-weight: 300;
@@ -472,6 +574,8 @@ nav a:hover {
     text-align: justify;
     width: 400px;
 }
+
+
 
 .gridItemAnimation p a {
     color:#8a4645;
@@ -488,6 +592,7 @@ nav a:hover {
 .gridContainerPortfolio {
     display: grid;
     column-gap: 50px;
+    row-gap: 50px;
     grid-template-columns: auto auto;
     text-align: center;
     justify-content: center;
@@ -520,6 +625,15 @@ nav a:hover {
     font-family: Dosis;
     font-weight: 500;
     font-size: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gridItemPortfolio> h6 {
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 20px;
 
     margin-bottom: 10px;
     margin-top: 0;
